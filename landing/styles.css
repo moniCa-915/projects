@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: block;
+    background: radial-gradient(circle at center, #F7DCB9 70%, #DEAC80);
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0 20px;
+    display: flex;
+}
+nav{
+    font-weight: 500;
+}
+ul li{
+    list-style-type: none;
+    
+}
+.nav-link{
+    text-decoration: none;
+    color: #554537;
+    
+}
