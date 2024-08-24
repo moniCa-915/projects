@@ -1,6 +1,5 @@
 *{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 body{
@@ -11,11 +10,13 @@ body{
 header{
     position: fixed;
     top: 0;
-    min-height: 75px;
+    max-height: 10vh;
     padding: 0 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #DEAC80;
+    background: linear-gradient(180deg,#DEAC80,#F7DCB9);
 }
 div{
     display: block;
@@ -66,8 +67,8 @@ ul li{
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 200px;
-    margin-top: 50px;
+    height: 20vh;
+    margin-top: 15vh;
 }
 h2{
     color: #22333b;
@@ -117,27 +118,72 @@ form{
     width: 100%;
     max-width: 1000px;
 }
-#about-me{
-    margin-top: 50px;
+#brew{
+    margin-top: 10vh;
 }
 .grid{
     display: flex;
+}
+#brew .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 10vw;
+}
+#brew .desc{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 10vh;
+    width: 90vw;
+}
+#brew .desc > h2{
+    width: 30%;
+}
+#brew .desc > p{
+    width: 70%;
+}
+#coffee-review{
+    margin-top: 10vh;
+    display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-}
-#about-me .icon{
-    display: flex;
-    align-items: center;
     justify-content: center;
-    width: 20vw;
-    height: 125px;
-    font-size: 50px;
 }
-#about-me .desc {
+.type{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80vw;
-    height: 125px;
+    flex-direction: column;
+    width: calc(100% / 2);
+    margin: 5vh;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.level{
+    background: linear-gradient(180deg, #603F26, #6f1d1b);
+    color: #F7DCB9;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 30px;
+}
+.type > h3{
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+.btn{
+    height: 5vh;
+    padding: 0 20px;
+    background: linear-gradient(180deg, #603F26, #6f1d1b);
+    color: #F7DCB9;
+    margin: 0 40px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+@media only screen and  (max-width: 420px) {
+    .header{
+        font-size: 4.5rem;
+    }
 }
 

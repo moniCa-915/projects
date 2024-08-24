@@ -11,6 +11,7 @@
     <title>Document</title>
   </head>
   <body>
+    <div id="page-wrapper">
     <header id="header">
       <div class="logo">
         <img id="header-img" src="./img/icons8-coffee-64.png" />
@@ -18,13 +19,13 @@
       <nav id="nav-bar">
         <ul>
           <li>
-            <a class="nav-link" href="#about-me">About me</a>
-          </li>
-          <li class="nav-link">
-            <a class="nav-link" href="#coffee-reivew">Coffee review </a>
+            <a class="nav-link" href="#brew">Brew introduction</a>
           </li>
           <li>
             <a class="nav-link" href="#brew-guides">Brew guides</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#coffee-review">Coffee review </a>
           </li>
         </ul>
       </nav>
@@ -44,34 +45,70 @@
       </form>
     </section>
     <div class="container">
-      <section id="about-me">
+      <section id="brew">
         <div class="grid">
           <div class="icon">
-            <i class="fa fa-coffee"></i>
+            <img src="./img/icons8-temperature-50.png">
           </div>
           <div class="desc">
-            <h2>About me</h2>
+            <h2>Temperature</h2>
             <p>
-              A space for talking, sharing and reviewing all kinds of coffee.
+              Temperature affects the body of coffee. Try 90°C (or 194°F) 
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <img src="./img/icons8-grinder-64.png">
+          </div>
+          <div class="desc">
+            <h2>Grinder</h2>
+            <p>
+              Fine particles release more aroma and bitterness. Rough particles prevent fewer aroma and less bitterness. Find the perfect grind level is critical.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <img src="./img/icons8-clock-50.png">
+          </div>
+          <div class="desc">
+            <h2>Duration</h2>
+            <p>
+              Grind level and filter cup affects duration. Longer duration contribute full body and decrease acidicity. Shorter duration retain fruity and flowery.
             </p>
           </div>
         </div>
       </section>
+      <section id="brew-guides">
+        <iframe id="video" src=""></iframe>
+      </section>
       <section id="coffee-review">
         <div class="type" id="simple">
           <div class="level">Simple description</div>
-          <h3>Coffee beans</h2>
+          <h3>50 POINTS</h3>
           <ul>
             <li>Temperature</li>
             <li>Grinder</li>
             <li>Duration</li>
           </ul>
+          <button class="btn">POST</button>
         </div>
-        <div class="type" id="detail"></div>
+        <div class="type" id="detail">
+          <div class="level">Detail description</div>
+          <h3>100 POINTS</h3>
+          <ul>
+            <li>Temperature</li>
+            <li>Grinder</li>
+            <li>Duration</li>
+            <li>Filter cup</li>
+            <li>Grinder machine</li>
+          </ul>
+          <button class="btn">POST</button>
+        </div>
       </section>
-      <section id="brew-guides">
-        <iframe id="video" src=""></iframe>
-      </section>
+
     </div>
+  </div>
   </body>
 </html>
