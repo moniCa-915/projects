@@ -1,0 +1,45 @@
+body{
+    background: #405D72;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+#title{
+    text-align: center;
+    font-size: 5rem;
+    line-height: 2;
+}
+p{
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#img-div{
+    padding: 5px;
+    margin: auto;
+}
+img{
+    max-width: 40%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+#img-caption{
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 10px;
+    font-family: sans-serif;
+}
+#tribute-link{
+    color: #FBF6D0;
+}
+#tribute-link:hover{
+    font-size: 1.5rem;
+}
+h3{
+    padding: 0 15px;
+}
+ul{
+    line-height: 1.6;
+}
