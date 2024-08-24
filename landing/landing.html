@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img id="header-img" src="./img/icons8-coffee-64.png" />
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li>
+            <a class="nav-link" href="#about-me">About me</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-link" href="#coffee-reivew">Coffee review </a>
+          </li>
+          <li>
+            <a class="nav-link" href="#brew-guides">Brew guides</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container"></div>
+    <section id="hero">
+      <h2>Coffee share hubs</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+        <input id="submit" type="submit" value="Get Started" class="btn" />
+      </form>
+    </section>
+    <div class="container">
+      <section id="about-me">
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-coffee"></i>
+          </div>
+          <div class="desc">
+            <h2>About me</h2>
+            <p>
+              A space for talking, sharing and reviewing all kinds of coffee.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="coffee-review">
+        <div class="type" id="simple">
+          <div class="level">Simple description</div>
+          <h3>Coffee beans</h2>
+          <ul>
+            <li>Temperature</li>
+            <li>Grinder</li>
+            <li>Duration</li>
+          </ul>
+        </div>
+        <div class="type" id="detail"></div>
+      </section>
+      <section id="brew-guides">
+        <iframe id="video" src=""></iframe>
+      </section>
+    </div>
+  </body>
+</html>

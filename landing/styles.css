@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: block;
+    background: radial-gradient(circle at center, #F7DCB9 70%, #DEAC80);
+    font-family: 'Lato', sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div{
+    display: block;
+}
+.logo{
+    width: 50vw;
+}
+.logo > img{
+    width: 100%;
+    height: 100%;
+    max-width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+nav{
+    font-weight: 600;
+    display: block;
+}
+nav > ul{
+    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul {
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+ul li{
+    list-style-type: none;
+    text-align: center;
+    margin: 1vw;
+}
+.nav-link{
+    text-decoration: none;
+    color: #6f1d1b;
+    
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+h2{
+    color: #22333b;
+    font-size: 2.5em;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 2em;
+}
+form{
+    display: block;
+}
+
+#hero input[type="email"] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+#hero input[type="submit"] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 5px 0;
+    background-color: #6f1d1b;
+    color: bisque;
+    padding: 0 20px;
+    font-size: 1em;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+}
+#about-me{
+    margin-top: 50px;
+}
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#about-me .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 125px;
+    font-size: 50px;
+}
+#about-me .desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 125px;
+}
+
